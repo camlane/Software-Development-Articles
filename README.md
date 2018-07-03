@@ -1,8 +1,8 @@
-# Software-Development-Articles__
-A collection of the best of the best articles__
+# Software-Development-Articles<br />
+A collection of the best of the best articles<br />
 
-Very Comprehensive list of backend interview questions__
-https://github.com/arialdomartini/Back-End-Developer-Interview-Questions__
+Very Comprehensive list of backend interview questions<br />
+https://github.com/arialdomartini/Back-End-Developer-Interview-Questions<br />
 
 Excellent advice on end to end testing__
 https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html__
