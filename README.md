@@ -19,5 +19,7 @@ https://spring.io/guides/tutorials/bookmarks/<br />
 Good article describing ResponseEntityExceptionHandler<br />
 http://www.springboottutorial.com/spring-boot-exception-handling-for-rest-services<br />
 
+Excellent summary of how a reactive stream works<br/>
+https://opencredo.com/reactive-event-processing-reactor-core-first-look/<br/>
 
 
