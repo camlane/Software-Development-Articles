@@ -1,6 +1,6 @@
 # Software-Development-Articles<br />
 A collection of the best of the best articles<br/>
-
+  
 Motivational quotes<br/>
 http://javarevisited.blogspot.co.uk/2015/12/20-java-quotes-to-learn-and-motivate-yourself.html<br/>
 
