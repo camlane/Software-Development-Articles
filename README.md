@@ -28,4 +28,7 @@ http://www.springboottutorial.com/spring-boot-exception-handling-for-rest-servic
 Excellent summary of how a reactive stream works<br/>
 https://opencredo.com/reactive-event-processing-reactor-core-first-look/<br/>
 
+Good set of tricky interview questions
+https://dzone.com/articles/top-20-java-interview-questions-with-answers<br/>
+
 
