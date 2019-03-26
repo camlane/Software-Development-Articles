@@ -39,3 +39,60 @@ Good set of tricky interview questions
 https://dzone.com/articles/top-20-java-interview-questions-with-answers<br/>
 
 
+db.products.insert([
+  { "description" : "T" } userId
+  { "description" : "T2" }
+  { "description" : "S1" }
+])
+
+db.sites.insert([
+  { "url": "test", "originalPrice" : 100.00, "siteStatus": "ACTIVE", "productId" : "" }
+  { "url": "test2", "originalPrice" : 100.00, "siteStatus": "ACTIVE", "productId" : "" }
+  { "url": "s1", "originalPrice" : 100.00, "siteStatus": "ACTIVE", "productId" : "" }
+  { "url": "blah", "originalPrice" : 100.00, "siteStatus": "INACTIVE", "productId" : "" }
+])
+
+db.scanResults.insert([
+  { "scanPrice" : 99, scanStatus: "ELEMENT_FOUND", "httpStatus" : "FOUND", "scanDate" : ISODate("2019-03-26T00:00:00Z"), "siteId" : "" } userId
+  { scanStatus: "ELEMENT_NOT_FOUND", "httpStatus" : "FOUND", "scanDate" : ISODate("2019-03-26T00:00:00Z"), "siteId" : "" }
+  { "httpStatus" : "NOT_FOUND", "scanDate" : ISODate("2019-03-26T00:00:00Z"), "siteId" : "" }
+])
+
+db.sites.aggregate([
+   {
+      $lookup:
+        {
+            from: "scanResult",
+            pipeline: [
+              { $match:
+                 { $expr:
+                    { $and:
+                       [
+                         { $ne: [ "$httpStatus",  200 ] },
+                         { $ne: [ "$scanStatus", "ELEMENT_FOUND" ] }
+                       ]
+                    }
+                 }
+              },
+            localField: "id",
+            foreignField: "siteId",
+            as: "scanResults"
+        }
+   },
+   { 
+        $sort: { 
+      	    scanDate: 1 
+        } 
+   },
+   { 
+   	    $limit : 1 
+   },
+   {
+        $match: { 
+            "scanResults": { 
+                $ne: [] 
+            } 
+        }
+   }
+])
+
