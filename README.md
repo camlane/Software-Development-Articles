@@ -38,4 +38,8 @@ http://alesnosek.com/blog/2017/02/14/accessing-kubernetes-pods-from-outside-of-t
 Good set of tricky interview questions
 https://dzone.com/articles/top-20-java-interview-questions-with-answers<br/>
 
+Agile
+http://www.velocitypartners.net/blog/2014/02/13/agile-done-well-controlled-chaos/
 http://www.velocitypartners.net/blog/2013/09/25/user-stories-ready-set-go-part-1/
+
+
