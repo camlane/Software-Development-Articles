@@ -1,8 +1,14 @@
 # Software-Development-Articles<br />
 A collection of the best of the best articles<br/>
 
+Java testing best practices
+https://phauer.com/2019/modern-best-practices-testing-java/<br/>
+
+Code review best practices
+https://phauer.com/2018/code-review-guidelines<br/>
+
 Testing
-Excellent advice on end to end testing<br />
+Excellent advice on end to end testing<br/>
 https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html<br />
 
 Junit testing best practices<br/>
@@ -21,6 +27,9 @@ https://blog.restcase.com/rest-api-error-codes-101/<br />
 
 REST with Spring - A great starting point for building REST services<br />
 https://spring.io/guides/tutorials/bookmarks/<br />
+
+6 OOP Concepts in java
+https://raygun.com/blog/oop-concepts-java/<br/>
 
 Good article describing ResponseEntityExceptionHandler<br />
 http://www.springboottutorial.com/spring-boot-exception-handling-for-rest-services<br />
