@@ -1,37 +1,37 @@
 # Software-Development-Articles<br />
 A collection of the best of the best articles<br/>
 
-Simple explanation of the n+1 problem
+Simple explanation of the n+1 problem<br/>
 https://medium.com/quintoandar-tech-blog/hibernate-and-the-n-1-selections-problem-c497710fa3fe<br/>
 
-Java testing best practices
+Java testing best practices<br/>
 https://phauer.com/2019/modern-best-practices-testing-java/<br/>
 
-Code review best practices
+Code review best practices<br/>
 https://phauer.com/2018/code-review-guidelines<br/>
 
-Testing
+Testing<br/>
 Excellent advice on end to end testing<br/>
 https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html<br />
 
 Junit testing best practices<br/>
 https://blog.codecentric.de/en/2016/01/writing-better-tests-junit/
 
-Coding
+Streams<br/>
 The definitive guide to Java 8 streams<br/>
 http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/<br/>
 
 Excellent summary of how a reactive stream works<br/>
 https://opencredo.com/reactive-event-processing-reactor-core-first-look/<br/>
 
-REST
+REST<br/>
 HTTP error codes (with those pertaining to rest highlighted)<br />
 https://blog.restcase.com/rest-api-error-codes-101/<br />
 
 REST with Spring - A great starting point for building REST services<br />
 https://spring.io/guides/tutorials/bookmarks/<br />
 
-6 OOP Concepts in java
+6 OOP Concepts in java<br/>
 https://raygun.com/blog/oop-concepts-java/<br/>
 
 Good article describing ResponseEntityExceptionHandler<br />
@@ -47,10 +47,10 @@ https://github.com/arialdomartini/Back-End-Developer-Interview-Questions<br />
 Clear description of port assignment in Kubernetes<br />
 http://alesnosek.com/blog/2017/02/14/accessing-kubernetes-pods-from-outside-of-the-cluster/<br />
 
-Good set of tricky interview questions
+Good set of tricky interview questions<br/>
 https://dzone.com/articles/top-20-java-interview-questions-with-answers<br/>
 
-Agile
+Agile<br/>
 http://www.velocitypartners.net/blog/2014/02/13/agile-done-well-controlled-chaos/<br/>
 
 http://www.velocitypartners.net/blog/2013/09/25/user-stories-ready-set-go-part-1/<br/>
