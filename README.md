@@ -1,6 +1,9 @@
 # Software-Development-Articles<br />
 A collection of the best of the best articles<br/>
 
+Simple explanation of the n+1 problem
+https://medium.com/quintoandar-tech-blog/hibernate-and-the-n-1-selections-problem-c497710fa3fe<br/>
+
 Java testing best practices
 https://phauer.com/2019/modern-best-practices-testing-java/<br/>
 
@@ -48,7 +51,8 @@ Good set of tricky interview questions
 https://dzone.com/articles/top-20-java-interview-questions-with-answers<br/>
 
 Agile
-http://www.velocitypartners.net/blog/2014/02/13/agile-done-well-controlled-chaos/
-http://www.velocitypartners.net/blog/2013/09/25/user-stories-ready-set-go-part-1/
+http://www.velocitypartners.net/blog/2014/02/13/agile-done-well-controlled-chaos/<br/>
+
+http://www.velocitypartners.net/blog/2013/09/25/user-stories-ready-set-go-part-1/<br/>
 
 
